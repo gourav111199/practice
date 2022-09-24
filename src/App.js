@@ -24,7 +24,7 @@ function App() {
     <p>{state}</p>
    
     <button onClick={()=>dispatch({type:"increment"})}>INC</button>
-    <button onClick={()=>dispatch({type:"decrement"})}>DEC</button>
+    <button onClick={()=>dispatch({type:"decrement"})}>DEC  </button>
 
 
     {/* <h1>{joke.joke}</h1> */}
